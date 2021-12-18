@@ -4,17 +4,16 @@
   "files": [
     "dist"
   ],
-  "version": "0.0.0-1",
+  "version": "0.0.0-2",
   "scripts": {
-    "build": "env NODE_ENV=production browserify -e index.js -o dist/index.js -g uglifyify -s p2pkit"
+    "build": "env NODE_ENV=production browserify -e index.js -o dist/index.js -s p2pkit"
   },
   "dependencies": {},
   "devDependencies": {
     "browserify": "^17.0.0",
     "p2pt": "^1.5.0",
     "simple-peer": "^9.11.0",
-    "simple-peer-files": "^1.2.3",
-    "uglifyify": "^5.0.2"
+    "simple-peer-files": "^1.2.3"
   },
   "main": "dist/index.js"
 }
